@@ -1,0 +1,65 @@
+{% extends "_base.html" %}
+{% set active_page = "index" %}
+
+{% block content %}
+
+<div class="panel" style="max-width: 340px; float: left">
+    <div class="prose">
+        <p>우리가 매일 접하는 스마트폰의 메신저,</p>
+        <p>은행 뒤 보이지 않는 곳에서 돌아가는 전산망,</p>
+        <p>우주를 탐험하는 탐사선까지,</p>
+        <p>모두 컴퓨터 소프트웨어의 힘으로 움직이고 있습니다.</p>
+    </div>
+    <div class="prose">
+        <p>그런데 알고 계세요?</p>
+        <p>소프트웨어란 컴퓨터와 컴퓨터 사이의 약속, 사람과 사람 사이의 약속,</p>
+        <p>그리고 사람과 컴퓨터 사이의 약속으로 이루어져 있다는 사실을.</p>
+    </div>
+    <div class="prose">
+        <p>그 ‘약속’을 이뤄주기 위한 도구,</p>
+        <p>한글 프로그래밍 언어 <em>약속</em>을 소개합니다.</p>
+    </div>
+</div>
+
+<div class="panel" style="width: 340px; clear: right; float: right">
+    <h4>쇼케이스</h4>
+    <div style="widht: 150px; float: left">
+        <a href="showcase_noriteo.html"><img src="thumb_noriteo.png" width="128px" height="128px" alt="놀이터"/></a>
+        <br/>
+        <a href="showcase_noriteo.html">놀이터 (코드 연습장)</a>
+    </div>
+    <div style="widht: 150px; float: right">
+        <a href="showcase_2048.html"><img src="thumb_2048.png" width="128px" height="128px" alt="2048"/></a>
+        <br/>
+        <a href="showcase_2048.html">2048</a>
+    </div>
+</div>
+
+<div class="panel" style="width: 340px; float: right">
+    <h4>프로그래밍이 쉬워지는 <em>약속</em>,<br/>개발이 즐거워지는 <em>약속</em></h4>
+    <p>
+    약속은 우리에게 자연스러운 한국어 표현으로 상용 소프트웨어, 웹 애플리케이션, 게임, 스마트폰 앱까지 전부 만들 수 있습니다.(*)
+    </p>
+    <p><a href="specification.html">언어 명세 보기</a></p>
+    <p>(*) 근 시일에 지원 예정</p>
+</div>
+
+<div class="panel" style="clear: both">
+    <h2>전문가들의 추천사</h2>
+
+    <p class="quote">제 책도 약속 언어로 바꿔서 개정판 내야겠어요!</p>
+    <span class="quote-by">- 구종만 (<a href="http://book.algospot.com/" target="_blank">알고리즘 문제 해결 전략</a> 저자)</span>
+
+    <p class="quote"><em>약속</em>은 지금까지 만들어진 것 중 최고의 한글 프로그래밍 언어이다.</p>
+    <span class="quote-by">- Puzzlet Chung (한글 프로그래밍 언어 '아희' 창시자)</span>
+
+    <p class="quote">나의 첫 프로그래밍 언어가 <em>약속</em>이었다면 지금 두 배는 더 나은 프로그래머가 되었을 것이다.</p>
+    <span class="quote-by">- sh*****</span>
+
+    <p class="quote">당신의 코딩을 바꿔놓을 획기적인 언어의 등장! 중국 기술 유출이 우려된다면 이 언어를 써라!</p>
+    <span class="quote-by">- 익명</span>
+</div>
+
+{% endblock content %}
+
+{# set filetype=jinjahtml #}

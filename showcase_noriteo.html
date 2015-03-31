@@ -1,0 +1,27 @@
+{% extends "_base.html" %}
+{% set active_page = "noriteo" %}
+
+{% block content %}
+
+<h2>약속 놀이터</h2>
+<p>
+<a href="http://yaksok.herokuapp.com" target="_blank">
+    <img src="noriteo.gif"><BR>
+약속 놀이터로 가기
+</a>
+</p>
+<P>
+약속 놀이터를 통해 웹상에서 로봇을 조종하며 약속 언어를 직접 테스트해 볼 수 있습니다.
+</p>
+<p>
+<code>이동</code> : 앞으로 한 칸 전진하며 해당 칸에 색을 칠합니다. <BR>
+<code>좌회전</code> : 현재 바라보는 방향 기준으로 왼쪽을 바라보게 합니다.<BR>
+<code>우회전</code> : 오른쪽을 바라보게 합니다.<BR>
+</p>
+<p>
+놀이터 안의 예제를 확인해보세요!
+</p>
+
+{% endblock content %}
+
+{# set filetype=jinjahtml #}

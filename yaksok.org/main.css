@@ -1,0 +1,139 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/earlyaccess/kopubbatang.css);
+
+/* solarized */
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #fdf6e3;
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #657B83;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header-wrapper {
+    background-color: #268bd2;
+    color: #fdf6e3;
+    padding: 1px;
+}
+
+div.header {
+    max-width: 800px;
+    margin: 1em auto;
+}
+
+div.header h1,
+div.header span {
+    display: inline;
+}
+
+div.header span.share {
+    float: right;
+    text-align: right;
+}
+
+div.header p {
+    font-size: 1.5em;
+}
+
+h1 {
+    margin: 0.3em 0 0.5em;
+    font-size: 5em;
+    font-family: 'KoPub Batang', serif;
+    letter-spacing: 0.3em;
+}
+
+nav {
+    background-color: #657b83;
+    width: 100%;
+    overflow: auto;
+}
+
+nav ul {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    margin: 0;
+    list-style: none;
+    width: 20%;
+    text-align: center;
+}
+
+nav li a {
+    display: block;
+    width: 100%;
+    height: 3em;
+    line-height: 3em;
+    color: #fdf6e3;
+    font-size: larger;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #93a1a1;
+}
+
+nav li a span {
+    font-size: x-small;
+}
+
+div.root {
+    max-width: 800px;
+    clear: both;
+    margin: 2em auto 0;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: #268bd2;
+}
+
+div.prose {
+    margin: 2em 0;
+}
+
+div.panel *:first-child,
+div.panel *:first-child * {
+    margin-top: 0;
+}
+
+
+div.panel *:last-child,
+div.panel *:last-child * {
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 150%;
+}
+
+div.panel {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #CCCCCC;
+}
+
+div.panel-float {
+    float: right;
+}
+
+p.quote {
+    margin: 2em 0 0.5em;
+}
+
+span.quote-by {
+    margin-left: 1em;

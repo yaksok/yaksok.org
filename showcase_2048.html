@@ -1,0 +1,47 @@
+{% extends "_base.html" %}
+{% set active_page = "noriteo" %}
+
+{% block content %}
+
+
+<h2>
+    응용 - 2048 게임의 모작
+</h2>
+
+<figure style="float:right">
+<figcaption>모작 스크린샷</figcaption>
+<img src="new2048.png" width="269px" height="448px" alt="모작 스크린샷"/>
+</figure>
+<p>
+많은 프로그래밍 교육용 도구들(스크래치 등)이 기초적인 언어 사용 및 프로그래밍의 개념을 심어주는데는 성공적이지만, 
+이 도구들을 이용하여 응용 프로그램 개발(앱, 게임 등)에 적용하기에는 한계를 느낀다는 평들을 접할 수 있습니다.
+약속 언어를 공개하면서 약속을 이용하여 만들어진 앱을 같이 공개하여 어떻게 응용할 수 있는지 보여드리고자 합니다.
+<!--
+
+-->
+</p>
+<p>
+해커뉴스 등에서 유행했던 Gabriele Cirulli가 만든 2048이라는 게임이 있습니다. 상하좌우로 움직이는 커서키를 이용하거나 쓸어넘기는 간단한 조작과 같은 숫자가 만나면 합쳐지는 직관적인 룰로 인기를 끌었습니다.
+<BR>
+<a href="http://gabrielecirulli.github.io/2048" target="_blank">2048 하러가기</a><BR>
+<a href="http://en.wikipedia.org/wiki/2048_%28video_game%29">2048 영문 위키피디어 항목</a>
+</p>
+<p> 
+위 게임을 약속을 이용하여 앱으로 구현해 보았습니다. (아직 언어 최적화가 부족하여 일부 폰에서는 반응속도가 떨어질 수도 있습니다.) <BR>
+<a href="http://yaksok.github.io/2048/">웹 버전 플레이하기</a>
+<a href="https://s3-ap-northeast-1.amazonaws.com/yaksok/example2048.apk">안드로이드 버전 APK 다운받기</a>
+</p>
+<p>
+사용한 소스코드는 아래와 같습니다.<BR>
+<a href="게임.yak.html">게임.yak</a><BR>
+<a href="화면.yak.html">화면.yak</a>
+</p>
+
+<figure style="float:right">
+<figcaption>원본 2048게임 스크린샷</figcaption>
+<img src="orig2048.png" style="float:right" width="269px" height="358px" alt="원본 2048게임 스크린샷"/>
+</figure>
+
+{% endblock content %}
+
+{# set filetype=jinjahtml #}
